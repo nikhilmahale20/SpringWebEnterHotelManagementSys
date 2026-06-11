@@ -305,7 +305,7 @@ This project demonstrates:
 
 ## Author
 
-Mohan Babu
+Nikhil Mahale
 
 Enterprise Hotel Management System
 Java + Hibernate + MySQL
