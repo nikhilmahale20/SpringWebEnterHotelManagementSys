@@ -1,0 +1,20 @@
+package org.example.thread;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class ThreadPoolConfig {
+
+    private static final ExecutorService executorService =
+            Executors.newFixedThreadPool(5);
+
+    public static ExecutorService getExecutorService() {
+
+        return executorService;
+    }
+
+    public static void shutdown() {
+
+        executorService.shutdown();
+    }
+}
